@@ -54,7 +54,9 @@ const Acomp = () => {
                   <select
                     style={{ width: "150px" }}
                     className="form-control-sm m-3"
-                    onChange={(e) => setPerPage(e.target.value)}
+                    onChange={(e) => {
+                      setPerPage(e.target.value);
+                    }}
                   >
                     <option value="10">Select upto 10</option>
                     <option value="20">Select upto 20</option>
