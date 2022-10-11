@@ -55,6 +55,7 @@ const Acomp = () => {
                     style={{ width: "150px" }}
                     className="form-control-sm m-3"
                     onChange={(e) => {
+                      setCurrPage(1);
                       setPerPage(e.target.value);
                     }}
                   >
